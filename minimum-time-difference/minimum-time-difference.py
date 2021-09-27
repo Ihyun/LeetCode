@@ -4,11 +4,9 @@ class Solution:
         
         for timePoint in timePoints:
             hour, minute = map(int, timePoint.split(":"))
-            # print(hour, minute)
             times.append(hour*60+minute)
         
         times.sort()
-        # print(times)
         minimum = 1440//2
         
         for i in range(len(times)-1):
