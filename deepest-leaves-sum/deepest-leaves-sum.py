@@ -33,4 +33,3 @@ class Solution:
             queue.append(next_depth)
             
         return sol
-    
